@@ -16,3 +16,9 @@ Filter (Select filter then search)
 NextAuth,
 react-chartjs-2,
 tippyjs,
+
+Data fetched:
+with axios
+
+State Management Tool:
+redux setup
