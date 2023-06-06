@@ -1,7 +1,9 @@
 # mobiz-technical-test
 Credentials for login are:
-Name : shahmir
-Password: test123!@#
+Name:
+shahmir
+Password:
+test123!@#
 
 Protected Routes:
 Home page is not a protected rote
