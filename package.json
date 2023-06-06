@@ -35,6 +35,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "@types/faker": "^6.6.9"
   }
 }
