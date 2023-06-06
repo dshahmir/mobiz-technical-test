@@ -35,7 +35,7 @@ const ChartsData = () => {
                 </div>
             </div>
             <div className="w-full  pt-5 px-5 min-h-[700px]">
-                <div className="flex gap-x-[20px]">
+                <div className="flex xl:flex-row flex-col gap-[20px]">
                     <div className="w-full max-h-[500px] bg-white rounded-[10px] shadow flex justify-center py-4">
                         <DonutChart />
                     </div>
@@ -44,12 +44,12 @@ const ChartsData = () => {
                     </div>
                 </div>
                 <div className=" flex flex-row justify-between gap-x-[20px] mt-[20px]">
-                    <div className="bg-white rounded-[10px] shadow py-4 max-h-[500px] flex items-center">
-                        <PieChart />
-                    </div>
                     <div className="bg-white rounded-[10px] shadow py-4 max-h-[500px] w-full flex justify-center">
                         <EventsCharts />
                     </div>
+                    {/* <div className="bg-white rounded-[10px] shadow py-4 max-h-[500px] flex items-center justify-center w-full">
+                        <PieChart />
+                    </div> */}
                 </div>
             </div>
         </>

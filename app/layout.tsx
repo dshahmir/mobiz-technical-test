@@ -15,11 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <LayoutProvider>
-        <NextAuthProvider>
+      <NextAuthProvider>
+        <LayoutProvider>
           <div className="w-full h-full p-5 bg-[#F8F8F8]">{children}</div>
-        </NextAuthProvider>
-      </LayoutProvider>
+        </LayoutProvider>
+      </NextAuthProvider>
     </html>
   );
 }
