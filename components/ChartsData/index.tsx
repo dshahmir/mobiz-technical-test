@@ -2,24 +2,12 @@
 import { getData } from '@/utils/helpers';
 import React, { useEffect, useState } from 'react'
 import { ChevronRight } from '../icons'
-import { useRouter } from 'next/navigation';
 import DonutChart from '../DonutChart';
 import RadarChart from '../RadarChart';
 import EventsCharts from '../EventsCharts';
-import PieChart from '../PieChart';
 
 const ChartsData = () => {
-    const router = useRouter()
-    const [data, setData] = useState({})
-
-    const fetchData = async () => {
-        const data = await getData()
-        if (data) setData(data?.data?.products as any)
-    }
-
-    useEffect(() => {
-        fetchData()
-    }, [])
+   
 
     return (
         <>

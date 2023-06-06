@@ -4,7 +4,6 @@ import { useSession } from "next-auth/react"
 
 const Navbar = () => {
     const { data: session, status } = useSession()
-    console.log("session here", session)
 
     return (
         <>
