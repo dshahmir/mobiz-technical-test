@@ -11,7 +11,6 @@ import { useRouter } from 'next/navigation';
 const ProductsData = () => {
     const router = useRouter()
     const { data: session, status } = useSession()
-    console.log(status)
     if (status === "unauthenticated") {
         router.push("/login")
     }
